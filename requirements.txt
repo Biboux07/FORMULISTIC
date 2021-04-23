@@ -1,0 +1,2 @@
+matplotlib==3.3.4
+f1_2020_telemetry==0.2.1
