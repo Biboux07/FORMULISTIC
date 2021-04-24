@@ -11,7 +11,7 @@ import threading
 from sessions.Telemetry_Recorder import main as StartRecording
 #from sessions.Telemetry_Recorder_Test import stop_thread, main
 from f1_2020_telemetry.cli.threading_utils import WaitConsoleThread, Barrier
-from Stop_record_thread import close_thread
+
 
 #Gaphs functions:
 from GettingLists import Get_Telemetry

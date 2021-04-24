@@ -8,49 +8,49 @@ def TeamName(num):
 
 		name = "no name"
 
-	if num == 0:
+	elif num == 0:
 
 		name = "Mercedes"
 
-	if num == 1:
+	elif num == 1:
 
 		name = "Ferrari"
 		
-	if num == 2:
+	elif num == 2:
 
 		name = "Red Bull Racing"
 		
-	if num == 3:
+	elif num == 3:
 
 		name = "Williams"
 		
-	if num == 4:
+	elif num == 4:
 
 		name = "Racing Point"
 
-	if num == 5:
+	elif num == 5:
 
 		name = "Renault"
 		
-	if num == 6:
+	elif num == 6:
 
 		name = "AlphaTauri"
 		
-	if num == 7:
+	elif num == 7:
 
 		name = "Haas"
 		
-	if num == 8:
+	elif num == 8:
 
 		name = "McLaren"
 		
-	if num == 9:
+	elif num == 9:
 
 		name = "Alfa Romeo"
 		
-	#else:
+	else:
 
-		#name = "Not an F1-2020-car"
+		name = "Not an F1-2020-car"
 		
 	return name
 

@@ -31,7 +31,7 @@ def Startend_Lap(Car_Data, num_car):
 			#Récupérations de toutes les données nécessaires:
 
 			currentLapTime = Lap_Data.currentLapTime
-			#print(currentLapTime)
+			
 
 			#Spot de beginnig of the Lap:
 
@@ -59,8 +59,6 @@ def Startend_Lap(Car_Data, num_car):
 	row_start = lapStart_List[lenlist-2]
 	row_end = lapStart_List[lenlist-1]-1
 
-	#print (lapStart_List)
-	#print (row_start, row_end)
 
 	return row_start, row_end
 	
