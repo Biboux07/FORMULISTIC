@@ -5,7 +5,7 @@
 
 ## Installation:
 > 1. **Download the App**  
-   Use this [link](https://codeload.github.com/Biboux07/FORMULISTIC/zip/main).
+   Use this [link](https://codeload.github.com/Biboux07/FORMULISTIC/zip/main).<br/>A windows operating system is required.
 
 > 2. **Install the necessary python modules**  
     Open a terminal, go to the Formulistic folder and 
