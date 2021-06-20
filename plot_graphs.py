@@ -103,7 +103,7 @@ def time_dif(Data_car1, Data_car2):
     g1.legend(bbox_to_anchor=(0., 1.02, 1., .102), loc=3, ncol=2, borderaxespad=0.)
 
     #Plot N3:
-    g3.plot(Data_car2["LapDistance_List"] , delta_dist_List, color="lightcoral")
+    g3.plot(Data_car2["LapDistance_List"] , delta_dist_List, color="dimgrey")
     #g3.plot(Data_car1["LapDistance_List"] , Data_car1["CurrentLapTime_List"], color="dimgrey")
 
     plt.subplots_adjust(left=None, bottom=None, right=None, top=None, wspace=None, hspace=0)
