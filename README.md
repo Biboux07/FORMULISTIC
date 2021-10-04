@@ -17,12 +17,22 @@
     To launch the game you can either create a shortcut on your desktop or use a terminal. In this case, go to your Formulistic folder and type `$ python3 main.py`, depending on your python version, you might need to type
     `python` instead of `python3`. If you don't have any python interpreter already installed, just type 'python' into the terminal and it will ask you to download it.
 
+## F1 2020 settings:
+> 1. **Correctly set up the game**  
+   There is few settings that need te be change in F1 2020 before recording data. <br/>First, go at `GAME-OPTIONS>Settings>Telemetry-Settings` and check that all variables are as follow: 
+
+    UDP Telemetry: ON | UDP Broadcast Mode: ON | UDP IP Address: 127.0.0.1 | UDP Port: 2077 | UDP Send Rate: 20HZ | UDP Format 2020
+
+> 2. **Gamemode**  
+  `Time Trial` is the easiest gamemode to use while recording some telemetry data. Moreover, remember that it is your last completed lap that will be shown in the graph. (not always your fastest) 
+
+
 ## Updates:
 >**The following updates will be announced here:**
    
     FORMULISTIC BETA is now available [23.04.21]
 
->Note, the app is currently in BETA. Updates will come over time. However,  if you are facing major issues feel free to conctact me at: `formulisticteam@gmail.com`
+>Note, the app is currently in BETA. Updates will come over time. However,  if you are facing major issues feel free to conctact me at: `romain.pitton@gmail.com`
 
 ## Credits:
 >This app has been made by @Biboux07 as part of a post-secondary school capstone project. All rights reserved.
