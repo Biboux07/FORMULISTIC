@@ -5,7 +5,7 @@
 
 ## Installation:
 > 1. **Download the App**  
-   Use this [link](https://codeload.github.com/Biboux07/FORMULISTIC/zip/main).<br/>A windows operating system is required.
+   Use this [link](https://codeload.github.com/Biboux07/FORMULISTIC/zip/main).<br/>A windows operating system as well as an [Python interpreter](https://docs.python.org/3/using/windows.html#windows-store) are required .
 
 > 2. **Install the necessary python modules**  
     Open a terminal, go to the Formulistic folder and 
@@ -15,7 +15,7 @@
 
 > 3. **Launch the game**  
     To launch the game you can either create a shortcut on your desktop or use a terminal. In this case, go to your Formulistic folder and type `$ python3 main.py`, depending on your python version, you might need to type
-    `python` instead of `python3`. If you don't have any python interpreter already installed, just type 'python' into the terminal and it will ask you to download it.
+    `python` instead of `python3`. 
 
 ## F1 2020 settings:
 > 1. **Correctly set up the game**  
@@ -24,15 +24,11 @@
     UDP Telemetry: ON | UDP Broadcast Mode: ON | UDP IP Address: 127.0.0.1 | UDP Port: 20777 | UDP Send Rate: 20HZ | UDP Format 2020
 
 > 2. **Gamemode**  
-  `Time Trial` is the easiest gamemode to use while recording some telemetry data. Moreover, remember that it is your last completed lap that will be shown in the graph. (not always your fastest) 
+  `Time Trial` is the easiest gamemode to use while recording telemetry data. Moreover, remember that it is your last completed lap that will be shown in the graph. (not always your fastest) 
+
+> 3. **Sessions**  
+  Sessions are named like so : `FORMULISTIC_Sessionnumber.sqlite3`. They will appear in your `general formulistic folder`. Feel free to put them into your session folder as wished.
 
 
-## Updates:
->**The following updates will be announced here:**
-   
-    FORMULISTIC BETA is now available [23.04.21]
-
->Note, the app is currently in BETA. Updates will come over time. However,  if you are facing major issues feel free to conctact me at: `romain.pitton@gmail.com`
-
-## Credits:
->This app has been made by @Biboux07 as part of a post-secondary school capstone project. All rights reserved.
+## Extra:
+>Note, the app is currently in BETA. Updates will come over time. However,  if you are facing major issues feel free to conctact me at: `romain.pitton@gmail.com`. This app was been made by @Biboux07 as part of a post-secondary school capstone project. All rights reserved.
