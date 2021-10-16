@@ -21,7 +21,7 @@
 > 1. **Correctly set up the game**  
    There is few settings that need te be change in F1 2020 before recording data. <br/>First, go at `GAME-OPTIONS>Settings>Telemetry-Settings` and check that all variables are as follow: 
 
-    UDP Telemetry: ON | UDP Broadcast Mode: ON | UDP IP Address: 127.0.0.1 | UDP Port: 2077 | UDP Send Rate: 20HZ | UDP Format 2020
+    UDP Telemetry: ON | UDP Broadcast Mode: ON | UDP IP Address: 127.0.0.1 | UDP Port: 20777 | UDP Send Rate: 20HZ | UDP Format 2020
 
 > 2. **Gamemode**  
   `Time Trial` is the easiest gamemode to use while recording some telemetry data. Moreover, remember that it is your last completed lap that will be shown in the graph. (not always your fastest) 
